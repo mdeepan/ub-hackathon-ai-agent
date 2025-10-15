@@ -1,0 +1,40 @@
+# Ignore local environment secrets
+.env
+
+# Ignore Python specific files and directories
+__pycache__/
+*.pyc
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Ignore local Streamlit artifacts
+.streamlit/
+
+# Ignore ChromaDB database files
+data/chroma/
+
+# Data & Database Ignores
+# Ignore EVERYTHING inside the data/ folder
+data/
+
+# But EXCEPTIONALLY, un-ignore the folder that holds
+# the source documents (the inputs for RAG)
+!data/source_docs/
+
+# We also need to un-ignore the contents of that source_docs folder
+# so it can be committed
+data/source_docs/*
+
+# -----------------
+# macOS Files
+.DS_Store
+
+# -----------------
+# Windows Files
+Thumbs.db                 # Thumbnail cache files
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
