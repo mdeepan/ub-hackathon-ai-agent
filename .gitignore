@@ -18,15 +18,15 @@ data/chroma/
 
 # Data & Database Ignores
 # Ignore EVERYTHING inside the data/ folder
-data/
+# data/
 
 # But EXCEPTIONALLY, un-ignore the folder that holds
 # the source documents (the inputs for RAG)
-!data/source_docs/
+#!data/source_docs/
 
 # We also need to un-ignore the contents of that source_docs folder
 # so it can be committed
-data/source_docs/*
+#data/source_docs/*
 
 # -----------------
 # macOS Files
