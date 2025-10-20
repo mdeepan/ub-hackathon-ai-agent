@@ -1,0 +1,407 @@
+{
+  "programming": {
+    "description": "Software development and programming skills",
+    "subcategories": {
+      "python": {
+        "description": "Python programming language and ecosystem",
+        "skills": [
+          "python-basics",
+          "python-oop",
+          "python-data-structures",
+          "python-algorithms",
+          "python-libraries",
+          "python-web-frameworks",
+          "python-testing",
+          "python-debugging"
+        ]
+      },
+      "javascript": {
+        "description": "JavaScript programming and web development",
+        "skills": [
+          "javascript-basics",
+          "javascript-es6",
+          "javascript-dom",
+          "javascript-async",
+          "nodejs",
+          "react",
+          "vue",
+          "angular",
+          "typescript"
+        ]
+      },
+      "java": {
+        "description": "Java programming language and enterprise development",
+        "skills": [
+          "java-basics",
+          "java-oop",
+          "java-spring",
+          "java-maven",
+          "java-testing",
+          "java-concurrency",
+          "java-jvm"
+        ]
+      },
+      "web-development": {
+        "description": "Frontend and backend web development",
+        "skills": [
+          "html",
+          "css",
+          "responsive-design",
+          "web-accessibility",
+          "rest-apis",
+          "graphql",
+          "web-security",
+          "performance-optimization"
+        ]
+      },
+      "mobile-development": {
+        "description": "Mobile app development",
+        "skills": [
+          "react-native",
+          "flutter",
+          "ios-development",
+          "android-development",
+          "mobile-ui-ux",
+          "mobile-testing"
+        ]
+      }
+    },
+    "core_skills": [
+      "coding",
+      "debugging",
+      "algorithms",
+      "data-structures",
+      "software-architecture",
+      "version-control",
+      "code-review",
+      "refactoring"
+    ]
+  },
+  "data-science": {
+    "description": "Data analysis, machine learning, and statistical modeling",
+    "subcategories": {
+      "machine-learning": {
+        "description": "Machine learning algorithms and techniques",
+        "skills": [
+          "supervised-learning",
+          "unsupervised-learning",
+          "deep-learning",
+          "neural-networks",
+          "model-evaluation",
+          "feature-engineering",
+          "hyperparameter-tuning"
+        ]
+      },
+      "statistics": {
+        "description": "Statistical analysis and modeling",
+        "skills": [
+          "descriptive-statistics",
+          "inferential-statistics",
+          "hypothesis-testing",
+          "regression-analysis",
+          "time-series-analysis",
+          "bayesian-statistics"
+        ]
+      },
+      "data-analysis": {
+        "description": "Data processing and analysis techniques",
+        "skills": [
+          "data-cleaning",
+          "data-exploration",
+          "data-transformation",
+          "sql",
+          "pandas",
+          "numpy",
+          "data-pipelines"
+        ]
+      },
+      "visualization": {
+        "description": "Data visualization and reporting",
+        "skills": [
+          "matplotlib",
+          "seaborn",
+          "plotly",
+          "tableau",
+          "power-bi",
+          "d3js",
+          "dashboard-design"
+        ]
+      },
+      "big-data": {
+        "description": "Large-scale data processing",
+        "skills": [
+          "hadoop",
+          "spark",
+          "kafka",
+          "data-warehousing",
+          "etl-processes",
+          "cloud-data-platforms"
+        ]
+      }
+    },
+    "core_skills": [
+      "python",
+      "r",
+      "sql",
+      "statistics",
+      "machine-learning",
+      "data-visualization",
+      "data-storytelling",
+      "experimental-design"
+    ]
+  },
+  "business": {
+    "description": "Business skills and management",
+    "subcategories": {
+      "management": {
+        "description": "Team and project management",
+        "skills": [
+          "team-leadership",
+          "project-management",
+          "agile-methodologies",
+          "scrum",
+          "kanban",
+          "resource-planning",
+          "stakeholder-management"
+        ]
+      },
+      "marketing": {
+        "description": "Marketing and customer acquisition",
+        "skills": [
+          "digital-marketing",
+          "content-marketing",
+          "social-media-marketing",
+          "seo",
+          "analytics",
+          "customer-segmentation",
+          "brand-management"
+        ]
+      },
+      "finance": {
+        "description": "Financial analysis and management",
+        "skills": [
+          "financial-modeling",
+          "budgeting",
+          "investment-analysis",
+          "risk-management",
+          "accounting",
+          "financial-reporting"
+        ]
+      },
+      "strategy": {
+        "description": "Strategic planning and analysis",
+        "skills": [
+          "market-analysis",
+          "competitive-analysis",
+          "business-modeling",
+          "strategic-planning",
+          "decision-making",
+          "innovation-management"
+        ]
+      },
+      "leadership": {
+        "description": "Leadership and organizational skills",
+        "skills": [
+          "emotional-intelligence",
+          "change-management",
+          "conflict-resolution",
+          "mentoring",
+          "coaching",
+          "organizational-culture"
+        ]
+      }
+    },
+    "core_skills": [
+      "project-management",
+      "communication",
+      "analytics",
+      "strategy",
+      "leadership",
+      "negotiation",
+      "presentation",
+      "decision-making"
+    ]
+  },
+  "design": {
+    "description": "Design and user experience",
+    "subcategories": {
+      "ui-ux": {
+        "description": "User interface and user experience design",
+        "skills": [
+          "user-research",
+          "wireframing",
+          "prototyping",
+          "usability-testing",
+          "information-architecture",
+          "interaction-design",
+          "visual-design"
+        ]
+      },
+      "graphic-design": {
+        "description": "Visual design and branding",
+        "skills": [
+          "typography",
+          "color-theory",
+          "layout-design",
+          "branding",
+          "logo-design",
+          "print-design",
+          "digital-illustration"
+        ]
+      },
+      "web-design": {
+        "description": "Web-specific design skills",
+        "skills": [
+          "responsive-design",
+          "css",
+          "html",
+          "web-accessibility",
+          "performance-design",
+          "cross-browser-compatibility"
+        ]
+      },
+      "product-design": {
+        "description": "Product design and development",
+        "skills": [
+          "design-thinking",
+          "product-strategy",
+          "user-journey-mapping",
+          "service-design",
+          "design-systems",
+          "design-tools"
+        ]
+      }
+    },
+    "core_skills": [
+      "design-thinking",
+      "user-research",
+      "prototyping",
+      "visual-design",
+      "creativity",
+      "problem-solving",
+      "attention-to-detail",
+      "collaboration"
+    ]
+  },
+  "soft-skills": {
+    "description": "Interpersonal and communication skills",
+    "subcategories": {
+      "communication": {
+        "description": "Verbal and written communication",
+        "skills": [
+          "public-speaking",
+          "presentation-skills",
+          "technical-writing",
+          "active-listening",
+          "non-verbal-communication",
+          "cross-cultural-communication"
+        ]
+      },
+      "leadership": {
+        "description": "Leadership and influence",
+        "skills": [
+          "team-building",
+          "mentoring",
+          "coaching",
+          "influence",
+          "delegation",
+          "conflict-resolution",
+          "emotional-intelligence"
+        ]
+      },
+      "time-management": {
+        "description": "Productivity and time management",
+        "skills": [
+          "prioritization",
+          "goal-setting",
+          "task-management",
+          "deadline-management",
+          "work-life-balance",
+          "productivity-tools"
+        ]
+      },
+      "collaboration": {
+        "description": "Teamwork and collaboration",
+        "skills": [
+          "teamwork",
+          "collaboration-tools",
+          "remote-work",
+          "cross-functional-collaboration",
+          "feedback-giving",
+          "feedback-receiving"
+        ]
+      }
+    },
+    "core_skills": [
+      "presentation",
+      "negotiation",
+      "teamwork",
+      "problem-solving",
+      "adaptability",
+      "critical-thinking",
+      "creativity",
+      "emotional-intelligence"
+    ]
+  },
+  "technical-skills": {
+    "description": "Technical and infrastructure skills",
+    "subcategories": {
+      "cloud-computing": {
+        "description": "Cloud platforms and services",
+        "skills": [
+          "aws",
+          "azure",
+          "google-cloud",
+          "docker",
+          "kubernetes",
+          "serverless",
+          "microservices"
+        ]
+      },
+      "devops": {
+        "description": "Development operations and automation",
+        "skills": [
+          "ci-cd",
+          "infrastructure-as-code",
+          "monitoring",
+          "logging",
+          "security",
+          "automation",
+          "configuration-management"
+        ]
+      },
+      "databases": {
+        "description": "Database management and design",
+        "skills": [
+          "sql",
+          "nosql",
+          "database-design",
+          "query-optimization",
+          "data-modeling",
+          "database-administration"
+        ]
+      },
+      "security": {
+        "description": "Cybersecurity and information security",
+        "skills": [
+          "network-security",
+          "application-security",
+          "penetration-testing",
+          "vulnerability-assessment",
+          "security-policies",
+          "incident-response"
+        ]
+      }
+    },
+    "core_skills": [
+      "system-administration",
+      "networking",
+      "security",
+      "automation",
+      "troubleshooting",
+      "documentation",
+      "version-control",
+      "testing"
+    ]
+  }
+}
