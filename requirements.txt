@@ -2,7 +2,10 @@ fastapi
 uvicorn
 streamlit
 langchain
+langchain-openai
+langchain-community
 pydantic
+pydantic-settings
 python-dotenv
 openai
 chromadb
