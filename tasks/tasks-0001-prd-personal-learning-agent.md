@@ -21,6 +21,7 @@ Based on the PRD analysis and current codebase assessment, here are the high-lev
 - `backend/models/skills.py` - Skills assessment and gap analysis models
 - `backend/database/init_db.py` - Database initialization and schema setup
 - `backend/database/connection.py` - Database connection management with SQLite support and error handling
+- `backend/database/vector_store.py` - ChromaDB vector storage management with semantic search capabilities
 - `backend/services/skills_engine.py` - AI-powered skills assessment engine
 - `backend/services/learning_engine.py` - Learning path generation and content recommendation
 - `backend/services/user_service.py` - User profile management and context building
@@ -44,6 +45,7 @@ Based on the PRD analysis and current codebase assessment, here are the high-lev
 - `data/skills_taxonomy.json` - Skills taxonomy and categorization data
 - `tests/test_models.py` - Unit tests for data models
 - `tests/test_database_connection.py` - Unit tests for database connection management
+- `tests/test_vector_store.py` - Unit tests for ChromaDB vector storage management
 - `tests/test_services.py` - Unit tests for business logic services
 - `tests/test_api.py` - API endpoint tests
 - `tests/test_frontend.py` - Frontend component tests
@@ -60,7 +62,7 @@ Based on the PRD analysis and current codebase assessment, here are the high-lev
 
 - [ ] 1.0 Setup Core Infrastructure and Data Layer
   - [x] 1.1 Create database connection management and SQLite setup
-  - [ ] 1.2 Initialize ChromaDB for vector storage and semantic search
+  - [x] 1.2 Initialize ChromaDB for vector storage and semantic search
   - [ ] 1.3 Setup OpenAI API client with LangChain integration
   - [ ] 1.4 Create application configuration management
   - [ ] 1.5 Setup file processing utilities for document uploads
