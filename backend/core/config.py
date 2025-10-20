@@ -32,6 +32,7 @@ class Settings(BaseSettings):
     # Database Configuration
     database_path: str = Field(default="data/sqlite/pla.db", description="SQLite database path")
     chroma_path: str = Field(default="data/chroma", description="ChromaDB storage path")
+    data_dir: str = Field(default="data", description="Base data directory")
     
     # Application Configuration
     app_name: str = Field(default="Personal Learning Agent", description="Application name")
