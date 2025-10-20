@@ -63,8 +63,8 @@ Based on the PRD analysis and current codebase assessment, here are the high-lev
 - [ ] 1.0 Setup Core Infrastructure and Data Layer
   - [x] 1.1 Create database connection management and SQLite setup
   - [x] 1.2 Initialize ChromaDB for vector storage and semantic search
-  - [ ] 1.3 Setup OpenAI API client with LangChain integration
-  - [ ] 1.4 Create application configuration management
+  - [x] 1.3 Setup OpenAI API client with LangChain integration
+  - [x] 1.4 Create application configuration management
   - [ ] 1.5 Setup file processing utilities for document uploads
   - [ ] 1.6 Create sample learning content database structure
 
