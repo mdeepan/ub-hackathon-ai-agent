@@ -14,6 +14,7 @@ from backend.database.init_db import initialize_database_schema
 from backend.utils.file_processor import get_file_processor
 from backend.utils.content_manager import get_content_manager
 from backend.api.user import router as user_router
+from backend.api.skills import router as skills_router
 
 # 1. Load environment variables from the .env file
 load_dotenv()
@@ -38,6 +39,7 @@ except Exception as e:
 
 # 5. Include API routers
 app.include_router(user_router)
+app.include_router(skills_router)
 
 # 6. Define API endpoints
 @app.get("/")
