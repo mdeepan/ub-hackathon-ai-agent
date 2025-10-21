@@ -10,8 +10,10 @@ from backend.core.config import get_config, validate_environment, setup_logging
 from backend.core.ai_client import get_ai_client, validate_ai_setup
 from backend.database.connection import get_database
 from backend.database.vector_store import get_vector_store
+from backend.database.init_db import initialize_database_schema
 from backend.utils.file_processor import get_file_processor
 from backend.utils.content_manager import get_content_manager
+from backend.api.user import router as user_router
 
 # 1. Load environment variables from the .env file
 load_dotenv()
@@ -27,7 +29,17 @@ app = FastAPI(
     version="1.0.0"
 )
 
-# 4. Define API endpoints
+# 4. Initialize database schema
+try:
+    initialize_database_schema()
+    print("✅ Database schema initialized successfully")
+except Exception as e:
+    print(f"❌ Database schema initialization failed: {e}")
+
+# 5. Include API routers
+app.include_router(user_router)
+
+# 6. Define API endpoints
 @app.get("/")
 def read_root():
     """
@@ -355,7 +367,7 @@ def get_content_statistics():
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to get content statistics: {str(e)}")
 
-# 5. Optional: Run the server directly using uvicorn if executed as a script
+# 7. Optional: Run the server directly using uvicorn if executed as a script
 # This is generally used for development
 if __name__ == "__main__":
     # Get configuration
