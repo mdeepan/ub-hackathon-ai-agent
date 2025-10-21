@@ -13,6 +13,7 @@ from backend.database.vector_store import get_vector_store
 from backend.database.init_db import initialize_database_schema
 from backend.utils.file_processor import get_file_processor
 from backend.utils.content_manager import get_content_manager
+from backend.api.auth import router as auth_router
 from backend.api.user import router as user_router
 from backend.api.skills import router as skills_router
 from backend.api.learning import router as learning_router
@@ -39,6 +40,7 @@ except Exception as e:
     print(f"❌ Database schema initialization failed: {e}")
 
 # 5. Include API routers
+app.include_router(auth_router)
 app.include_router(user_router)
 app.include_router(skills_router)
 app.include_router(learning_router)
